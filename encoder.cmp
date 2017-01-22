@@ -1,0 +1,91 @@
+Cmp-Mod V01 Created by PcbNew   date = 2016/01/11 21:52:47
+
+BeginCmp
+TimeStamp = 568D2462
+Path = /568947C7
+Reference = C1;
+ValeurCmp = 10uF/CAPACITOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D2468
+Path = /568928A1
+Reference = C2;
+ValeurCmp = 0.1uF/CAPACITOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D247A
+Path = /56891E9F
+Reference = IC1;
+ValeurCmp = AS5048;
+IdModule  = as5048:ams5048a-TSSOP14;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D2484
+Path = /56891ED4
+Reference = JP1;
+ValeurCmp = PINHD-1X6;
+IdModule  = pin-head:pinhead-1X06;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D248A
+Path = /568D489A
+Reference = R1;
+ValeurCmp = RESISTOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D2490
+Path = /5689282D
+Reference = R2;
+ValeurCmp = RESISTOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D2496
+Path = /568D4930
+Reference = R3;
+ValeurCmp = RESISTOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D249C
+Path = /568D4A17
+Reference = R4;
+ValeurCmp = RESISTOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D24A2
+Path = /568D4A0B
+Reference = R5;
+ValeurCmp = RESISTOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D24A8
+Path = /568D4A11
+Reference = R6;
+ValeurCmp = RESISTOR1608;
+IdModule  = generic:generic-SMD1608;
+EndCmp
+
+BeginCmp
+TimeStamp = 568D24AD
+Path = /568926AC
+Reference = TP1;
+ValeurCmp = TPTP20SQ;
+IdModule  = testpad:testpad-TP20SQ;
+EndCmp
+
+EndListe
