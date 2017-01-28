@@ -28,6 +28,37 @@ The Encoder Converter board of Kicad Files for AMS AS5048A, AS5047D and others w
 [2]: http://www.digikey.jp/product-detail/ja/ams/AS5047D-ATSM/AS5047D-ATSMCT-ND/4895563 "*2"
 [3]: http://www.digikey.jp/product-detail/ja/ams/AS5047P-ATSM/AS5047P-ATSMCT-ND/5287312 "*3"
 
+## プログラム例
+  * AS5048A　SPI (Microchip C30)  
+    ※MOSIは常にhighのため、MOSIを3.3Vへ接続し、3線通信でも可。
+  
+   int data0,data1,res;  
+   SPICS1_OFF;  
+	  putcSPI2(0xFF);  
+	 	while(SPI2STATbits.SPITBF);  
+	  while(!SPI2STATbits.SPIRBF);  
+   data0=getcSPI2()&0xFF;  
+   putcSPI2(0xFF);  
+	 	while(SPI2STATbits.SPITBF);  
+	  while(!SPI2STATbits.SPIRBF);  
+   data1=getcSPI2()&0xFF;  
+   res=((data0<<8)+data1)&0x3FFF;  
+	  SPICS1_ON;  
+
+  * AS5047D/P　SPI (Microchip C30)  
+  
+   int data0,data1,res;  
+   SPICS1_OFF;  
+	  putcSPI2(0x3F);  
+	 	while(SPI2STATbits.SPITBF);  
+	  while(!SPI2STATbits.SPIRBF);  
+   data0=getcSPI2()&0xFF;  
+   putcSPI2(0xFF);  
+	 	while(SPI2STATbits.SPITBF);  
+	  while(!SPI2STATbits.SPIRBF);  
+   data1=getcSPI2()&0xFF;  
+   res=((data0<<8)+data1)&0x3FFF;  
+	  SPICS1_ON;    
 
 License - MIT
 
