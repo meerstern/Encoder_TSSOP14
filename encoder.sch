@@ -43,15 +43,16 @@ LIBS:Simplex-DiscreteSemi
 LIBS:microchip-dspic33fjxxmc
 LIBS:con-hirose
 LIBS:v-reg
+LIBS:projectionball_encoder_v1.00-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Encoder Board For AS5048A, AS5047D with SPI"
-Date "2017-01-22"
-Rev "V1.2"
-Comp "Crescent"
+Title ""
+Date ""
+Rev ""
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -119,8 +120,9 @@ U 1 1 568947C7
 P 8700 4250
 F 0 "C1" H 8720 4260 50  0000 R TNN
 F 1 "10uF/CAPACITOR1608" H 8720 4190 50  0000 R TNN
-F 2 "generic:generic-SMD1608" H 8730 4400 20  0001 C CNN
+F 2 "generic:generic-SMD2012" H 8730 4400 20  0001 C CNN
 F 3 "" H 8700 4250 60  0000 C CNN
+F 4 "Value" H 8700 4250 60  0001 C CNN "Fieldname"
 	1    8700 4250
 	1    0    0    -1  
 $EndComp

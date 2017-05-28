@@ -1,6 +1,10 @@
-update=2016/01/03 22:13:33
+update=22/05/2015 07:44:53
 version=1
 last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,8 +27,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -58,18 +60,3 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=ams5048a
-LibName31=tb6612
-LibName32=sd-card
-LibName33=pinhead
-LibName34=resistor
-LibName35=testpad
-LibName36=wirepad
-LibName37=rcl
-LibName38=switch-omron
-LibName39=switch
-LibName40=generic
-LibName41=Simplex-DiscreteSemi
-LibName42=microchip-dspic33fjxxmc
-LibName43=con-hirose
-LibName44=v-reg

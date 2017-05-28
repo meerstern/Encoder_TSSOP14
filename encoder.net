@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:/Users/stern/Desktop/projectionball_encoder_v1.00/projectionball_encoder_v1.00.sch)
-    (date "2016/01/06 23:25:19")
+    (source D:/Microchip_work/05_PCB_DESIGN/projectionball_encoder_v1.3/projectionball_encoder_v1.00.sch)
+    (date "2017/03/04 22:59:07")
     (tool "Eeschema 4.0.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,7 +29,9 @@
       (tstamp 56891ED4))
     (comp (ref TP1)
       (value TPTP20SQ)
-      (footprint testpad:testpad-TP20SQ)
+      (footprint testpad:testpad-TP10SQ)
+      (fields
+        (field (name Fieldname) Value))
       (libsource (lib testpad) (part TPTP20SQ))
       (sheetpath (names /) (tstamps /))
       (tstamp 568926AC))
@@ -47,7 +49,9 @@
       (tstamp 568928A1))
     (comp (ref C1)
       (value 10uF/CAPACITOR1608)
-      (footprint generic:generic-SMD1608)
+      (footprint generic:generic-SMD2012)
+      (fields
+        (field (name Fieldname) Value))
       (libsource (lib generic) (part CAPACITOR1608))
       (sheetpath (names /) (tstamps /))
       (tstamp 568947C7))
@@ -151,14 +155,14 @@
       (pins
         (pin (num TP) (name TP) (type input)))))
   (libraries
+    (library (logical ams5048a)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\ams5048a.lib"))
     (library (logical pinhead)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\pinhead.lib"))
     (library (logical testpad)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\testpad.lib"))
     (library (logical generic)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\generic.lib"))
-    (library (logical ams5048a)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\ams5048a.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\generic.lib")))
   (nets
     (net (code 1) (name "Net-(IC1-Pad8)")
       (node (ref R4) (pin 1))
