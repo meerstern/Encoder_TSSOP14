@@ -71,6 +71,9 @@ The Encoder Converter board of Kicad Files for AMS AS5048A, AS5047D and others w
    res=((data0<<8)+data1)&0x3FFF;  
 	  SPICS1_ON;    
 
+## 販売  
+  * AS5048A実装済みの変換基板を専用ネオジム磁石付きで販売しています。[スイッチサイエンス][5]  
+
 License - MIT
 
 
@@ -80,3 +83,4 @@ License - MIT
 [2]: http://www.digikey.jp/product-detail/ja/ams/AS5047D-ATSM/AS5047D-ATSMCT-ND/4895563 "*2"
 [3]: http://www.digikey.jp/product-detail/ja/ams/AS5047P-ATSM/AS5047P-ATSMCT-ND/5287312 "*3"
 [4]: http://projectionball.jp/ "*4"
+[5]: https://www.switch-science.com/catalog/3140/ "*5"
